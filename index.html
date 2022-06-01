@@ -37,6 +37,11 @@
             border-radius: 10px;
         }
 
+        #output {
+            font-size: 18px;
+            text-align: center;
+        }
+
         #button-box {
             display: flex;
             justify-content: center;
@@ -63,7 +68,7 @@
         <div id="box">
             <input id="input-1" class="input-box" type="text" placeholder="Enter a sentence">
             <input id="input-2" class="input-box" type="text" placeholder="Enter a word">
-            <textarea class="input-box" name="" id="output" cols="30" rows="4" placeholder="Result"></textarea>
+            <textarea class="input-box" name="" id="output" cols="30" rows="4" placeholder="Result" readonly></textarea>
             <div id="button-box">
                 <button onclick="submit()" id="btn-1" class="btn">Submit</button>
             </div>
