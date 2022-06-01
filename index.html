@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 2</title>
+
+    <!-- Internal CSS -->
+    <style>
+        #container {
+            margin: auto;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 600px;
+            background-color: rgb(235, 228, 228);
+            border-radius: 10px;
+        }
+
+        #box {
+            width: 500px;
+        }
+
+        .input-box {
+            display: block;
+            width: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-color: gray;
+            border-radius: 10px;
+        }
+
+        #button-box {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            width: 100px;
+            padding: 8px 12px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Assignment - 2</h1>
+    <div id="container">
+        <div id="box">
+            <input id="input-1" class="input-box" type="text" placeholder="Enter a sentence">
+            <input id="input-2" class="input-box" type="text" placeholder="Enter a word">
+            <textarea class="input-box" name="" id="" cols="30" rows="4" placeholder="Result"></textarea>
+            <div id="button-box">
+                <button id="btn-1" class="btn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- External javaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
